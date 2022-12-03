@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: var(--dl-color-gray-black);
 }
 .home-hero {
   width: 100%;
@@ -15,6 +16,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-tenunits);
   justify-content: center;
+  background-color: var(--dl-color-gray-black);
 }
 .home-image {
   width: auto;
@@ -42,8 +44,8 @@
   flex-direction: column;
 }
 .home-heading {
-  color: var(--dl-color-gray-700);
-  font-size: 48px;
+  color: #FFD700;
+  font-size: 60px;
   text-align: center;
   font-family: Montserrat;
   font-weight: 700;
@@ -59,12 +61,12 @@
   padding-bottom: var(--dl-space-space-fiveunits);
 }
 .home-text {
-  color: var(--dl-color-gray-700);
+  color: #26a7de;
   text-align: center;
   margin-bottom: var(--dl-space-space-fiveunits);
 }
 .home-text1 {
-  color: var(--dl-color-gray-700);
+  color: #ecf0f1;
   text-align: center;
   margin-bottom: var(--dl-space-space-fiveunits);
   text-decoration: none;
@@ -120,6 +122,7 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: center;
+  background-color: var(--dl-color-gray-black);
 }
 .home-copyright-container {
   display: flex;
@@ -127,14 +130,44 @@
   flex-direction: row;
 }
 .home-link {
+  color: rgb(236, 240, 241);
   font-size: 14px;
   text-align: center;
+}
+@media(max-width: 1600px) {
+  .home-text1 {
+    color: #ecf0f1;
+  }
+  .home-link {
+    color: #ecf0f1;
+  }
+}
+@media(max-width: 1200px) {
+  .home-hero {
+    background-color: var(--dl-color-gray-black);
+  }
+  .home-heading {
+    color: #FFD700;
+  }
+  .home-text {
+    color: #26a7de;
+  }
+  .home-text1 {
+    color: #ecf0f1;
+  }
+  .home-footer {
+    background-color: var(--dl-color-gray-black);
+  }
+  .home-link {
+    color: #ecf0f1;
+  }
 }
 @media(max-width: 991px) {
   .home-hero {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--dl-color-gray-black);
   }
   .home-image {
     width: auto;
@@ -148,7 +181,7 @@
     width: 80%;
   }
   .home-heading {
-    font-size: 48px;
+    font-size: 60px;
     font-family: Montserrat;
     font-weight: 700;
     line-height: 1.22;
@@ -156,14 +189,19 @@
     text-transform: none;
     text-decoration: none;
   }
+  .home-image1 {
+    width: 35%;
+  }
   .home-text1 {
-    color: var(--dl-color-gray-700);
+    color: #ecf0f1;
     text-decoration: none;
   }
   .home-footer {
     padding: var(--dl-space-space-fiveunits);
+    background-color: var(--dl-color-gray-black);
   }
   .home-link {
+    color: #ecf0f1;
     font-size: 14px;
     text-align: center;
   }
@@ -173,21 +211,33 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--dl-color-gray-black);
   }
   .home-image {
     width: auto;
   }
   .home-heading {
+    color: #FFD700;
     margin-bottom: var(--dl-space-space-tenunits);
   }
+  .home-image1 {
+    width: 35%;
+  }
+  .home-text1 {
+    color: #ecf0f1;
+  }
+  .home-footer {
+    background-color: var(--dl-color-gray-black);
+  }
   .home-link {
+    color: #ecf0f1;
     font-size: 14px;
     text-align: center;
   }
 }
 @media(max-width: 479px) {
   .home-container {
-    background-color: var(--dl-color-gray-white);
+    background-color: var(--dl-color-gray-black);
   }
   .home-hero {
     opacity: 1;
@@ -196,7 +246,7 @@
     flex-direction: column;
     padding-bottom: var(--dl-space-space-fourunits);
     justify-content: center;
-    background-color: var(--dl-color-gray-white);
+    background-color: var(--dl-color-gray-black);
   }
   .home-image {
     width: auto;
@@ -208,13 +258,22 @@
   .home-hero-text {
     width: 100%;
   }
+  .home-image1 {
+    width: 35%;
+  }
   .home-text1 {
+    color: #ecf0f1;
     font-family: Roboto;
+  }
+  .home-section-separator3 {
+    background-color: var(--dl-color-gray-500);
   }
   .home-footer {
     padding: 0px;
+    background-color: var(--dl-color-gray-black);
   }
   .home-link {
+    color: #ecf0f1;
     font-size: 14px;
     text-align: center;
     padding-top: var(--dl-space-space-doubleunit);
