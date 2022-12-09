@@ -289,8 +289,14 @@
     width: auto;
   }
   .home-heading {
-    font-size: 50px;
+    color: rgb(236, 240, 241);
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 1.22;
     letter-spacing: 2px;
+    text-transform: none;
+    text-decoration: none;
   }
   .home-content-container {
     padding-top: var(--dl-space-space-fiveunits);
